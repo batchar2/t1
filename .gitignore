@@ -1,0 +1,59 @@
+doc/doxy-doc/*
+__pycache__
+doc/doxy-doc
+*.pyc
+# my
+# IDE
+.idea/
+# CMake files
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+*.cbp
+cmake-build-*
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.gcda
+*.gcov
+*.gcda
+*.gcno
+*qmake_gcov
+*.pro.user
+travis_qmake_gcc_cpp98_gcov
+travis_qmake_gcc_cpp98_gcov
+travis_qmake_gcc_cpp98_gcov_gcov
+travis_qmake_gcc_cpp11_gcov_gcov
+travis_qmake_gcc_cpp11_gcov
+
